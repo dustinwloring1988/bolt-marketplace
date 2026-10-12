@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-12T22:04:02Z",
+  "plugins": [
+    {
+      "id": "boltdiy.text-utilities",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "manifestPath": "plugins/boltdiy/text-utilities/1.0.0/manifest.json",
+          "manifestSha256": "a1dc093b68df96be9893e572dde5179dc92f24436a8521acaa51f93d71bf88fe",
+          "packagePath": "plugins/boltdiy/text-utilities/1.0.0/package.zip",
+          "packageSha256": "ba5ae6bf66b50d6cf2b0003081b67622534535a4caeb3d57199f219b8b70ce92",
+          "changelogPath": "plugins/boltdiy/text-utilities/1.0.0/CHANGELOG.md"
+        }
+      ]
+    }
+  ]
+}

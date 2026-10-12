@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "pluginApiVersion": 1,
+  "id": "boltdiy.text-utilities",
+  "name": "Text Utilities",
+  "description": "Count and transform text with deterministic tools.",
+  "publisher": "Bolt.diy",
+  "license": "MIT",
+  "category": "Productivity",
+  "version": "1.0.0",
+  "contribution": {
+    "type": "host-tool",
+    "adapter": "text-utils"
+  },
+  "capabilities": [],
+  "tools": [
+    "count",
+    "transform"
+  ],
+  "settings": []
+}
