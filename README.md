@@ -1,5 +1,7 @@
 # bolt-marketplace
 
+[![bolt.diy marketplace: A Marketplace For bolt.diy](./public/cover.png)](https://bolt.diy)
+
 A plugin marketplace for the [bolt.diy](https://github.com/dustinwloring1988/bolt.diy) project.
 
 ## Overview
