@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pluginApiVersion": 1,
+  "id": "dustinwloring1988.simple",
+  "name": "Simple Demo Plugin",
+  "description": "A simple demonstration plugin for the bolt-marketplace plugin system",
+  "publisher": "dustinwloring1988",
+  "license": "MIT",
+  "category": "Productivity",
+  "version": "1.0.0",
+  "tools": ["count"],
+  "settings": [
+    {
+      "key": "showOnHomepage",
+      "label": "Show on Homepage",
+      "type": "toggle",
+      "default": false
+    }
+  ]
+}

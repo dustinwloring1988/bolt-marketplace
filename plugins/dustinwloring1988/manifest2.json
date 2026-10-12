@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pluginApiVersion": 1,
+  "id": "dustinwloring1988.advanced",
+  "name": "Advanced Demo Plugin",
+  "description": "Advanced demonstration plugin with additional functionality",
+  "publisher": "dustinwloring1988",
+  "license": "MIT",
+  "category": "Productivity",
+  "version": "1.0.0",
+  "tools": ["count", "transform"],
+  "settings": [
+    {
+      "key": "autoSave",
+      "label": "Auto Save",
+      "type": "toggle",
+      "default": true
+    }
+  ]
+}

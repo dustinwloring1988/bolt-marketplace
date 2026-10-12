@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "pluginApiVersion": 1,
+  "id": "bolt.theme",
+  "name": "Bolt Theme Plugin",
+  "description": "Plugin for customizing the bolt.diy theme and appearance",
+  "publisher": "bolt",
+  "license": "MIT",
+  "category": "Developer Tools",
+  "version": "1.0.0",
+  "icon": "assets/icon.png",
+  "tools": ["transform"],
+  "settings": [
+    {
+      "key": "primaryColor",
+      "label": "Primary Color",
+      "type": "text",
+      "default": "#3b82f6"
+    }
+  ]
+}

@@ -1,12 +1,54 @@
-# Bolt Marketplace
+# bolt-marketplace
 
-This repository contains public Bolt plugin packages and their catalog metadata. The Bolt app owns installation state, configuration, permission enforcement, and runtime behavior.
+A plugin marketplace for the [bolt.diy](https://github.com/dustinwloring1988/bolt.diy) project.
 
-## Add a release
+## Overview
 
-1. Add a versioned `manifest.json`, `package.zip`, and `CHANGELOG.md` below `plugins/<publisher>/<slug>/<version>/`.
-2. Put the same manifest JSON in the ZIP root. Version 1 packages contain declarative metadata/assets only; they do not contain executable code or install scripts.
-3. Add both SHA-256 digests and relative paths to `catalog/index.json`.
-4. Run `node scripts/validate-marketplace.mjs` and submit a reviewed pull request.
+bolt-marketplace is a collection of plugins that extend the functionality of bolt.diy. Plugins are installed via the plugin system and can add tools, utilities, and integrations to your AI-assisted development environment.
 
-The initial host API supports reviewed `text-utils` adapters only. An app must treat other adapter types or capabilities as incompatible. Publisher labels in metadata are descriptive; repository review controls the source.
+## Plugin Structure
+
+Each plugin follows a manifest-based approach with a `manifest.json` file and associated package files. Plugins are identified by their `id` in the format `name.publisher`.
+
+## Demo Plugins
+
+### bolt/demo
+
+**ID**: `bolt.demo`
+
+A demonstration plugin showing how to customize the bolt.diy homepage by hiding example prompts and blank apps.
+
+**Features**:
+- `hideExamplePrompts` (toggle): When enabled, hides the example prompt buttons on the homepage
+- `hideBlankApps` (toggle): When enabled, hides the blank app starter option on the homepage
+
+**Tools**:
+- `count`: Count characters, words, and lines in text
+- `transform`: Apply deterministic text transformations
+
+**Settings**:
+- `hideExamplePrompts` (toggle, default: true): Hide example prompts on homepage
+- `hideBlankApps` (toggle, default: true): Hide blank apps on homepage
+
+### dustinwloring1988/simple
+
+**ID**: `dustinwloring1988.simple`
+
+A simple demonstration plugin for the bolt-marketplace plugin system.
+
+**Features**:
+- Basic text counting functionality
+
+**Tools**:
+- `count`: Count characters, words, and lines in text
+
+**Settings**:
+- `showOnHomepage` (toggle, default: false): Control visibility on homepage
+
+## Installation
+
+Plugins can be installed through the bolt.diy plugin manager or by adding them to the marketplace catalog.
+
+## License
+
+See LICENSE file for details.
