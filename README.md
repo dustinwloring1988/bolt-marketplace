@@ -14,23 +14,21 @@ Each plugin follows a manifest-based approach with a `manifest.json` file and as
 
 ## Demo Plugins
 
-### bolt/demo
+All demo packages currently use bolt.diy's supported `text-utils` plugin adapter. They expose text tools through the model; homepage and theme customization are not part of plugin API v1, so legacy settings that proposed those features are not included in the installable packages.
+
+### bolt.demo
 
 **ID**: `bolt.demo`
 
-A demonstration plugin showing how to customize the bolt.diy homepage by hiding example prompts and blank apps.
-
-**Features**:
-- `hideExamplePrompts` (toggle): When enabled, hides the example prompt buttons on the homepage
-- `hideBlankApps` (toggle): When enabled, hides the blank app starter option on the homepage
+A marketplace demo for the supported text tools.
 
 **Tools**:
 - `count`: Count characters, words, and lines in text
 - `transform`: Apply deterministic text transformations
 
-**Settings**:
-- `hideExamplePrompts` (toggle, default: true): Hide example prompts on homepage
-- `hideBlankApps` (toggle, default: true): Hide blank apps on homepage
+### bolt.example2 and bolt.theme
+
+These marketplace examples demonstrate the supported count and text transformation tools. The previous homepage and theme settings were prototypes and are not active capabilities.
 
 ### dustinwloring1988/simple
 
@@ -38,14 +36,8 @@ A demonstration plugin showing how to customize the bolt.diy homepage by hiding 
 
 A simple demonstration plugin for the bolt-marketplace plugin system.
 
-**Features**:
-- Basic text counting functionality
-
 **Tools**:
 - `count`: Count characters, words, and lines in text
-
-**Settings**:
-- `showOnHomepage` (toggle, default: false): Control visibility on homepage
 
 ## Installation
 

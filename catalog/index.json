@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T22:04:02Z",
+  "updatedAt": "2026-10-12T23:14:25Z",
   "plugins": [
+    {
+      "id": "bolt.demo",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "manifestPath": "plugins/bolt/demo/1.0.0/manifest.json",
+          "manifestSha256": "c65e3eb36a3b2b36799f37574adbdb6f00c9de6402a464c67666c9f87c7c1f6b",
+          "packagePath": "plugins/bolt/demo/1.0.0/package.zip",
+          "packageSha256": "a2a6cb231163f48240118c6b942fedf3092909069d58466d702e700960eceaa1"
+        }
+      ]
+    },
+    {
+      "id": "bolt.example2",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "manifestPath": "plugins/bolt/example2/1.0.0/manifest.json",
+          "manifestSha256": "f5fe4f54d874d50f05646a7d2cf572f24875213abf65219ade225a3650fd4e16",
+          "packagePath": "plugins/bolt/example2/1.0.0/package.zip",
+          "packageSha256": "ed05b7e6dd52967d44b5c5b7286db6faa3744bea28072cbd97d08fc28b676e05"
+        }
+      ]
+    },
+    {
+      "id": "bolt.theme",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "manifestPath": "plugins/bolt/theme/1.0.0/manifest.json",
+          "manifestSha256": "62590f85b26b783ce62d5cd100c5b9bb7d1a191473d3e25eb3446dd3826c1e38",
+          "packagePath": "plugins/bolt/theme/1.0.0/package.zip",
+          "packageSha256": "df7e221118220a59cd66ac4a08354db6f2a6da42f136f34539842ee356f4ccfb"
+        }
+      ]
+    },
     {
       "id": "boltdiy.text-utilities",
       "versions": [
@@ -12,6 +48,18 @@
           "packagePath": "plugins/boltdiy/text-utilities/1.0.0/package.zip",
           "packageSha256": "ba5ae6bf66b50d6cf2b0003081b67622534535a4caeb3d57199f219b8b70ce92",
           "changelogPath": "plugins/boltdiy/text-utilities/1.0.0/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "id": "dustinwloring1988.simple",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "manifestPath": "plugins/dustinwloring1988/simple/1.0.0/manifest.json",
+          "manifestSha256": "72e6309bda6ad81e077fe984c32fedb7116dbb5106174c383aa22379a4ab115b",
+          "packagePath": "plugins/dustinwloring1988/simple/1.0.0/package.zip",
+          "packageSha256": "9c7dfbb751c93a8bdd0359fb6e6eec6fbb232717d9552abfe9ec8fe6468b1d72"
         }
       ]
     }

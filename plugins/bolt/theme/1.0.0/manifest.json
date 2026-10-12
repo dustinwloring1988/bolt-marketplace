@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pluginApiVersion": 1,
+  "id": "bolt.theme",
+  "name": "Bolt Theme Plugin",
+  "description": "Marketplace demo with a text transformation tool. Theme customization is not supported by plugin API v1.",
+  "publisher": "bolt",
+  "license": "MIT",
+  "category": "Developer Tools",
+  "version": "1.0.0",
+  "contribution": {
+    "type": "host-tool",
+    "adapter": "text-utils"
+  },
+  "capabilities": [],
+  "tools": [
+    "transform"
+  ],
+  "settings": []
+}

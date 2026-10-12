@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "pluginApiVersion": 1,
+  "id": "bolt.demo",
+  "name": "Bolt Demo Plugin",
+  "description": "Marketplace demo with count and text transformation tools. Homepage customization is not supported by plugin API v1.",
+  "publisher": "bolt",
+  "license": "MIT",
+  "category": "Developer Tools",
+  "version": "1.0.0",
+  "contribution": {
+    "type": "host-tool",
+    "adapter": "text-utils"
+  },
+  "capabilities": [],
+  "tools": [
+    "count",
+    "transform"
+  ],
+  "settings": []
+}
